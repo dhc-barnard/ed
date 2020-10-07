@@ -1,8 +1,25 @@
 <footer>
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+</style>
 	<!-- This is dynamic code that uses the current page's title to fetch the pdf of the same name.-->
 	<!-- <a href="/texts/{{page.title}}.pdf" download="">  -->
 		<a href="/texts/Narrative 1.pdf" download="">
-  		<button type="button">Download</button> 
+  		<button class="btn"><i class="fa fa-download"></i> Download</button> 
  	</a> 
 </footer>
 
