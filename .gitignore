@@ -2,6 +2,8 @@
 _gh_pages
 _site
 .ruby-version
+mydreamandpassion.md
+rosannysbaggage.md
 
 # Numerous always-ignore extensions
 *.diff
@@ -43,6 +45,7 @@ validation-report.json
 # Folders to ignore
 node_modules
 bower_components
+img
 
 # Recommended in Ben Balter's Jekyll Style Guide
 .sass-cache
