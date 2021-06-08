@@ -2,7 +2,6 @@
 sitemap: false
 ---
 
-
 /*
   Common Variables
 
@@ -10,8 +9,11 @@ sitemap: false
 */
 
 /* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap');
+
 $main-font: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-$heading-font: sans-serif;
+$masthead-font: 'Oswald';
 $regular-font-size: 1.25em; /* 20px / 16px = 1.25em; support text resizing in all browsers */
 
 
@@ -21,10 +23,13 @@ $regular-font-size: 1.25em; /* 20px / 16px = 1.25em; support text resizing in al
   Make sure to leave color-scheme in `_config.yml` file empty for granular control
 */
 
-$text-color: #454545;
-$heading-color: #000000;
-$link-color: #002D62;
-$accent-color: #CE1126;
+$text-color: #454545; 
+$heading-color: #333333; /*fall-back color for older browsers */
+$heading-color: #363636;
+$link-color: #3300CC; /*fall-back color for older browsers */
+$link-color: #1b06e4;
+$accent-color: #3399CC; /*fall-back color for older browsers */
+$accent-color: #3A8CE4;
 
 
 @import "ed";

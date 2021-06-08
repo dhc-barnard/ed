@@ -107,7 +107,6 @@ a:focus {
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-  font-family: $heading-font;
   margin-bottom: .5rem;
   font-weight: normal;
   color: $heading-color;
@@ -226,12 +225,13 @@ tbody tr:nth-child(odd) th {
   margin-bottom: 3rem;
   padding-top: 26px;
   padding-bottom: 1rem;
-  text-align: center;
-}
+  text-align: center;}
 
 .masthead-title {
   color: $heading-color;
-  font-family: $main-font;
+  text-transform: uppercase;
+  font-family: $masthead-font;
+  font-weight: bold;
   font-size: 1.25rem;
   line-height: .777em;
   margin-top: 2em;
@@ -248,17 +248,16 @@ tbody tr:nth-child(odd) th {
 .masthead-title small {
   color: $text-color;
   display: none; /* This is an accessibility no-no */
-  font-family: $heading-font;
+  font-family: $masthead-font;
+  font-weight: 300;
   font-size: .88rem;
-  font-weight: normal;
   letter-spacing: .05rem;
-}
+ /* text-transform: capitalize; */
+ }
 
-.masthead .slash {
-  color: $accent-color;
-  font-size: 1.15em;
-  display: block;
-  line-height: 2.5em;
+.toc-hr {
+  border: none;
+  border-top: 1px solid #eee;
 }
 
 @media (min-width: 320px) {
@@ -267,9 +266,6 @@ tbody tr:nth-child(odd) th {
     font-size: 1.75rem;
   }
 
-  .masthead .slash {
-    display: inline;
-  }
 }
 
 @media (min-width: 48em) {
@@ -318,13 +314,6 @@ tbody tr:nth-child(odd) th {
 /* Sidebar content */
 .sidebar {
   background-color: $accent-color;
-}
-
-.sidebar-slash {
-  color: $link-color;
-  font-size: 4em;
-  text-align: center;
-  padding-top: 10%;
 }
 
 .sidebar a {
@@ -905,8 +894,21 @@ div.toc h2.author {
   color: #8f5536;
 }
 
-/* Download Button */
+hr {
+  border: 1px solid $accent-color;
+}
 
+/* Styling bio and bio image */
+.bio {
+  font-style: italic;
+  color: $heading-color;
+  font-size: .8em;
+}
+
+.bio-img {
+  float: left;
+  margin-right: 5%;
+}
 
 
 /* Social Media Sharing Buttons from sharingbutton.io */
@@ -1034,3 +1036,28 @@ div.toc h2.author {
   border-color: #1DA851;
 }
 
+/* Download Button */
+
+.resp-sharing-button--download {
+  color: #fff;
+  background-color: $accent-color;
+  border-color: $accent-color;
+  border-bottom-style: solid;
+  border-right-style: solid;
+  border-top: none;
+}
+
+.resp-sharing-button--download .fa-download {
+  color: #fff;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.4em;
+  vertical-align: top
+}
+
+.resp-sharing-button--download:hover,
+.resp-sharing-button--download:active {
+  background-color: #347ecd;
+  border-color: #347ecd;
+  text-decoration: underline;
+}
