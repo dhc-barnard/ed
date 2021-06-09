@@ -2,7 +2,6 @@
 _gh_pages
 _site
 .ruby-version
-_texts
 
 # Numerous always-ignore extensions
 *.diff
@@ -45,6 +44,7 @@ validation-report.json
 node_modules
 bower_components
 img
+_texts
 
 # Recommended in Ben Balter's Jekyll Style Guide
 .sass-cache

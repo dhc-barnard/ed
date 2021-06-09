@@ -44,8 +44,14 @@
 
 </footer>
 
-<!-- Footnote pop-ups -->
 <script type="text/javascript">
+
+//Disable right-click
+window.addEventListener('contextmenu', function (e) { 
+  e.preventDefault(); 
+}, false);
+
+// FOOTNOTE POP-UPS
 
 //for each list item in footnotes, add a close-button for the pop-up
 var footnoteSection = document.querySelector(".footnotes");
