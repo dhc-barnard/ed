@@ -2,8 +2,7 @@
 _gh_pages
 _site
 .ruby-version
-mydreamandpassion.md
-rosannysbaggage.md
+_texts
 
 # Numerous always-ignore extensions
 *.diff

@@ -1061,3 +1061,27 @@ hr {
   border-color: #347ecd;
   text-decoration: underline;
 }
+
+.resp-sharing-button--spanish {
+  color: #fff;
+  background-color: $text-color;
+  border-color: $text-color;
+  border-bottom-style: solid;
+  border-right-style: solid;
+  border-top: none;
+}
+
+.resp-sharing-button--spanish:hover,
+.resp-sharing-button--spanish:active {
+  background-color: #000;
+  border-color: #000;
+  text-decoration: underline;
+}
+
+.resp-sharing-button--download .fa-book-reader {
+  color: #fff;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.4em;
+  vertical-align: top
+}

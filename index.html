@@ -28,8 +28,8 @@ title: "Nos Cambió la Vida, Our Lives Transformed"
   </div>
 
   <div class="toc-texts">
-    {% for item in site.texts %}
-    <!-- Replace ids below with preface and intro once those pages are created-->
+    {% assign sorted_texts = site.texts | sort:"order" %}
+    {% for item in sorted_texts %}
       {% if item.id != "/texts/intro" and item.id != "/texts/preface" %}
         <div class="toc-entry">
           <h2><a href="{{ site.baseurl }}{{ item.url }}">
@@ -37,7 +37,7 @@ title: "Nos Cambió la Vida, Our Lives Transformed"
           </a></h2>
           <h2 class="author">{{ item.author }}</h2>    
         </div>
-      {% endif %}      
+      {% endif %}  
     {% endfor %}
   </div>
 </div>
