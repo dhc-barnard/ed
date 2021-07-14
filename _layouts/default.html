@@ -3,7 +3,7 @@
 
   {% include head.html %}
 
-  <body class="theme-base-{{site.color-scheme}}">
+  <body disable-select="on" class="theme-base-{{site.color-scheme}} disable-select">
 
     <!-- This if statement decides which sidebar to use -->
     {% if page.toc %}
@@ -26,7 +26,7 @@
         </div>
       </header>
 
-      <main class="container content" id="main">
+      <main disable-select="on" class="container content disable-select" id="main">
         {{ content }}
       </main>
     </div>
@@ -92,7 +92,7 @@
 <script type="text/javascript">
 
   document.querySelector('.masthead a').innerHTML = "Nos Cambio la Vida <span class='slash'>/</span> Our Lives Transformed";
-      
+
 </script>
   </body>
 </html>
