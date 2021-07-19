@@ -42,3 +42,103 @@ $accent-color: #3A8CE4;
   -webkit-touch-callout:none;
   -ms-user-select:none
 }
+
+/* NCLV CUSTOMIZATIONS */
+
+/*
+  Masthead
+
+  Super small header above the content for site name and short description.
+*/
+
+.masthead {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 3rem;
+  padding-top: 26px;
+  padding-bottom: 1rem;
+  text-align: center;}
+
+.masthead-title {
+  color: $heading-color;
+  text-transform: uppercase;
+  font-family: $masthead-font;
+  font-weight: bold;
+  font-size: 1.25rem;
+  line-height: .777em;
+  margin-top: 2em;
+  margin-bottom: 0;
+  margin-right: 0;
+  margin-left: 0;
+  text-align: center;
+}
+
+.masthead-title a {
+  color: $heading-color;
+}
+
+.masthead-title small {
+  color: $text-color;
+  display: none; /* This is an accessibility no-no */
+  font-family: $masthead-font;
+  font-weight: 300;
+  font-size: .88rem;
+  letter-spacing: .05rem;
+ /* text-transform: capitalize; */
+ }
+
+.toc-hr {
+  border: none;
+  border-top: 1px solid #eee;
+}
+
+@media (min-width: 320px) {
+  .masthead-title {
+    margin-top: 2px;
+    font-size: 1.75rem;
+  }
+
+}
+
+@media (min-width: 48em) {
+  .masthead-title small {
+    display: inline;
+  }
+}
+
+.page-title {
+  text-align: center;
+}
+
+.splash {
+ background-image: url('/assets/img/Borrador_v3@2000px.jpg');  
+ height: 100%; 
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ position: relative;
+
+}
+
+.splash-title {
+  font-family: $masthead-font;
+  position: absolute;
+  bottom: 9%;
+  left: 34%;
+  text-align: center;
+}
+
+.splash-title a, .splash-title a:hover {
+   font-size: 3em;
+   color: #fff;
+   text-transform: uppercase;
+   text-decoration: none;
+   font-weight: bold;
+}
+
+.splash-title small {
+  font-weight: 300;
+  font-size: 2rem;
+  color: #fff;
+  letter-spacing: .05rem;
+ /* text-transform: capitalize; */
+ }

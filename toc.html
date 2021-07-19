@@ -3,13 +3,6 @@ layout: page
 title: "Table of Contents"
 order: 2
 ---
-<div class="introduction">
-  <h1></h1>
-
-<p>
-  <em>Nos Cambió la Vida, Our Lives Transformed</em> is a digital edition of short autobiographical narratives written by Dominican writers of Haitian descent that have been translated into English.
-</p>
-</div>
 
 <hr class="toc-hr">
 
@@ -31,7 +24,7 @@ order: 2
   <div class="toc-texts">
     {% assign sorted_texts = site.texts | sort:"order" %}
     {% for item in sorted_texts %}
-      {% if item.id != "/texts/intro" and item.id != "/texts/preface" %}
+      {% if item.id != "/texts/introduction" and item.id != "/texts/preface" %}
         <div class="toc-entry">
           <h2><a href="{{ site.baseurl }}{{ item.url }}">
             {{ item.title }}
