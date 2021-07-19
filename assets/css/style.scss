@@ -32,3 +32,13 @@ $accent-color: #3A8CE4;
 
 @import "ed";
 @import "syntax";
+
+
+/* disable highlighting */
+*.disable-select{
+  user-select:none;
+  -moz-user-select:none;
+  -webkit-user-select:none;
+  -webkit-touch-callout:none;
+  -ms-user-select:none
+}
