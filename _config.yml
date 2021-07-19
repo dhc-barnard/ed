@@ -55,11 +55,19 @@ defaults:
 
 # Exclusions from the final site
 exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
   - optional
   - vendor
   - ed..gemspec
-  - Gemfile
-  - Gemfile.lock
   - backstop_data
   - backstop.json
 
@@ -67,9 +75,9 @@ exclude:
 # (Used for local or custom-server deployments)
 # Uncomment the `theme` line if using the Ed. theme gem on your own computer or server.
 # See https://jekyllrb.com/docs/themes/
-# theme: "ed."
+theme: "ed."
 
 # Remote Theme
 # (Used only for GitHub deployments)
 # See https://help.github.com/en/articles/adding-a-jekyll-theme-to-your-github-pages-site
-remote_theme: minicomp/ed
+# remote_theme: minicomp/ed
