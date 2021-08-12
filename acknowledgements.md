@@ -1,8 +1,10 @@
 ---
 layout: page
-title: Credits
+title: Acknowledgements
 order: 4
 ---
+
+[Team acknowledgements go here.]
 
 We would like to thank all of the volunteers who participated in the translation of the Nos Cambió stories over the past two years: 
 - Anthony Stevens Acevedo 

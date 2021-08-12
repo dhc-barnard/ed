@@ -4,12 +4,12 @@ layout: splash
 
  {% include head.html %}
 
- <article disable-select="on" class="splash">
- 	<!--Set the background image for the splash page in the style.css file -->
+ <div disable-select="on" class="splash">
+ 	<!--Set the background image for the splash page in the style.scss file -->
  <div class="splash-title">
   <h3><a href="toc">{{ site.title  | newline_to_br }}</a>
   	<br><small>{{ site.tagline }}</small>
   </h3>
 </div>
   {{ content }}
-</article>
+</div>

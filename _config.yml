@@ -4,11 +4,12 @@
 title:               Nos Cambió la Vida
 tagline:             'Our Lives Transformed'
 description:         'Nos Cambió la Vida is a digital edition of short autobiographical narratives written by Dominican writers of Haitian descent that have been translated into English.'
-url:                 'https://github.com/dhc-barnard/nos-cambio-la-vida.git'
+#url:                 'https://github.com/dhc-barnard/nos-cambio-la-vida.git'
+url:                  'https://dev.dhcbarnard.org'
 baseurl:             ''
 
 # About/contact
-author:
+author:              
   name:              Barnard College Digital Humanities Center
   url:               digitalhumanities.barnard.edu
   email:             digitalhumanities@barnard.edu

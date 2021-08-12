@@ -617,7 +617,8 @@ sup {
   background-color: darkgray;
 }
 
-/*.footnotes {
+/* Keep because needed when generating PDFs
+.footnotes {
   line-height: 1.2rem;
   font-size: 0.9rem;
   letter-spacing: .01rem;
@@ -700,45 +701,6 @@ li.prose {
 
 li.prose-indent {
   text-indent: 2rem;
-}
-
-/* Table of Contents */
-
-div.toc-texts, div.intro-pref {
-    display: block;
-  } 
-
-div.toc-entry {
-  text-align: center;
-  border-bottom: 2px solid $accent-color;
-}
-
-div.toc h2, .toc h2 > a {
-  color: $heading-color;
-  font-size: 1em;
-}
-
-div.toc h2.author {
-  font-size: .8em;
-  font-style: italic;
-}
-
-@media (min-width: 30em) {
-  div.toc-texts {
-    margin-bottom: 4rem;
-    display: inline-grid;
-    grid-template-columns: 9rem 9rem 9rem;
-    grid-gap: 4em;
-  }
-
-  div.intro-pref {
-    width: 100%;
-    margin-bottom: 4rem;
-    display: inline-grid;
-    grid-template-columns: auto auto;
-    grid-column-gap: 4em;
-    justify-content: space-evenly;
-  }
 }
 
 /*
@@ -835,18 +797,6 @@ div.toc h2.author {
 
 hr {
   border: 1px solid $accent-color;
-}
-
-/* Styling bio and bio image */
-.bio {
-  font-style: italic;
-  color: $heading-color;
-  font-size: .8em;
-}
-
-.bio-img {
-  float: left;
-  margin-right: 5%;
 }
 
 

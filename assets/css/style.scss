@@ -86,7 +86,66 @@ $accent-color: #3A8CE4;
  /* text-transform: capitalize; */
  }
 
-.toc-hr {
+#header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#header img {
+  max-width: 75px;
+  margin: 0 1rem;
+  display: inline;
+
+}
+
+/* Table of Contents */
+
+div#toc-texts, div#intro-pref {
+    display: block;
+  } 
+
+div.toc-entry {
+  text-align: center;
+  border-bottom: 2px solid $accent-color;
+  display: flex;
+  flex-direction: column;
+}
+
+div#toc h2, #toc h2 > a {
+  color: $heading-color;
+  font-size: 1em;
+  margin-bottom: 1.25em;
+}
+
+div#toc h3.author {
+  font-size: .9em;
+  font-style: italic;
+  margin-top: auto;
+  text-align: center;
+}
+
+@media (min-width: 30em) {
+  div#toc-texts {
+    margin-bottom: 4rem;
+    display: inline-grid;
+    grid-template-columns: 9rem 9rem 9rem;
+    grid-gap: 4em;
+  }
+
+  div#intro-pref {
+    width: 100%;
+    margin-bottom: 4rem;
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 4em;
+    justify-content: space-evenly;
+  }
+}
+
+
+#toc-hr {
   border: none;
   border-top: 1px solid #eee;
 }
@@ -109,8 +168,8 @@ $accent-color: #3A8CE4;
   text-align: center;
 }
 
-.splash {
- background-image: url('/assets/img/Borrador_v3@2000px.jpg');  
+.splash { 
+ background-image: url('/assets/img/Borrador_v3@2000px.jpg');
  height: 100%; 
  background-position: center;
  background-repeat: no-repeat;
@@ -123,7 +182,7 @@ $accent-color: #3A8CE4;
   font-family: $masthead-font;
   position: absolute;
   bottom: 9%;
-  left: 34%;
+  left: 35%;
   text-align: center;
 }
 
@@ -140,5 +199,21 @@ $accent-color: #3A8CE4;
   font-size: 2rem;
   color: #fff;
   letter-spacing: .05rem;
- /* text-transform: capitalize; */
+  text-transform: uppercase;
  }
+
+/* Styling bio and bio image */
+.bio {
+  font-style: italic;
+  color: $heading-color;
+  font-size: .8em;
+}
+
+.bio-img {
+  float: left;
+  margin-right: 5%;
+}
+
+/*article {
+  margin-top: 100px;
+}*/
