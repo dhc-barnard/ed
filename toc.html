@@ -8,18 +8,18 @@ order: 2
 
 <div id="toc">
   <div id="intro-pref">
-    {% for item in site.texts %}
-    <!-- Replace ids below with preface and intro once those pages are created-->
-      {% if item.id == "/texts/introduction" or item.id == "/texts/preface" %}
-      {% assign sorted_texts = site.texts | sort:"order" %}
-        <div class="toc-entry">
-          <h2><a href="{{ site.baseurl }}{{ item.url }}">
-            {{ item.title }}
-          </a></h2>
-          <h3 class="author">{{ item.author }}</h3>    
-        </div>     
-      {% endif %}
-    {% endfor %}
+      <div class="toc-entry"> 
+        <h2><a href="{{ site.baseurl }}/texts/preface">
+          Preface
+        </a></h2>
+        <h3 class="author">We Are All Dominican</h3>    
+      </div>   
+      <div class="toc-entry">
+        <h2><a href="{{ site.baseurl }}/texts/introduction">
+          Introduction
+        </a></h2>
+        <h3 class="author">Farah Hallal</h3>    
+      </div>   
   </div>
 
   <div id="toc-texts">
