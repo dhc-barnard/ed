@@ -18,6 +18,7 @@ We would like to thank all of the volunteers who participated in the translation
 - Yanilda Gonzalez
 - Maria Lozano 
 - Ellen Mena 
+- Miriam Neptune
 - Sarah Ohmer 
 - Merelis Ortiz
 - Diana Perez-Ramirez

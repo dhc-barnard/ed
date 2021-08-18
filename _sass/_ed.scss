@@ -592,7 +592,7 @@ sup {
   transform: translate(-50%, -50%);
   background-color: white;
   padding: 1rem 1.5rem;
-  width: 24rem;
+  width: 28rem;
   border-radius: 0.5rem;
 }
 
@@ -617,8 +617,8 @@ sup {
   background-color: darkgray;
 }
 
-/* Keep because needed when generating PDFs
-.footnotes {
+/* Keep because needed when generating PDFs */
+/*.footnotes {
   line-height: 1.2rem;
   font-size: 0.9rem;
   letter-spacing: .01rem;

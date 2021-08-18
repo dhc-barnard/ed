@@ -2,6 +2,13 @@
 sitemap: false
 ---
 
+*, p img {     
+  page-break-inside: avoid;     
+  page-break-after: avoid;     
+  page-break-before: avoid;   
+}
+
+
 /*
   Common Variables
 */
@@ -168,6 +175,8 @@ div#toc h3.author {
   text-align: center;
 }
 
+
+
 .splash { 
  background-image: url('/assets/img/Borrador_v3@2000px.jpg');
  height: 100%; 
@@ -175,6 +184,10 @@ div#toc h3.author {
  background-repeat: no-repeat;
  background-size: cover;
  position: relative;
+
+ @media (min-width: 120em) {
+  background-image: url('/assets/img/Borrador_v3@3840px.jpg')
+ }
 
 }
 
@@ -214,6 +227,6 @@ div#toc h3.author {
   margin-right: 5%;
 }
 
-/*article {
-  margin-top: 100px;
+/*.sidebar-toggle {
+ display: none; 
 }*/

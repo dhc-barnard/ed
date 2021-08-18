@@ -4,7 +4,9 @@ title: About
 order: 3
 ---
 
-Project description goes here.
+Nos Cambió La Vida is a digital edition of short autobiographical narratives written by Dominican writers of Haitian descent that have been translated into English. These stories were originally compiled into a book in 2017 and published in the Dominican Republic after a series of workshops for participating writers to share and work through their life stories. Collectively these stories illustrate the various impacts, personal and systemic, that White Supremacy has had on their lives on the island and beyond. May these stories reach far and touch as many lives as possible.
+
+Nos Cambió La Vida es una edición digital de breves narrativas autobiográficas escritas por escritores dominicanos de ascendencia haitiana que han sido traducidas al inglés. Estas historias se compilaron originalmente en un libro en 2017 y se publicaron en la República Dominicana después de una serie de talleres para que los escritores participantes compartieran y trabajaran a través de sus historias de vida. En conjunto, estas historias ilustran los diversos impactos, personales y sistémicos, que la supremacía blanca ha tenido en sus vidas en la isla y más allá. Que estas historias lleguen lejos y toquen tantas vidas como sea posible.
 
 # Sharing and Use of this Work
  
