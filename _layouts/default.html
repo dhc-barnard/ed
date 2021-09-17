@@ -3,8 +3,7 @@
 
   {% include head.html %}
 
-  <body disable-select="on" class="theme-base-{{site.color-scheme}} disable-select">
-
+<body class="theme-base--{{site.color-scheme}}">
     <!-- This if statement decides which sidebar to use -->
     {% if page.toc %}
     {% include sidebar-toc.html %}
@@ -28,7 +27,7 @@
         </div>
       </header>
 
-      <main disable-select="on" class="container content disable-select" id="main">
+      <main  class="container content" id="main">
         {{ content }}
       </main>
     </div>

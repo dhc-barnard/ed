@@ -4,12 +4,13 @@ layout: splash
 
  {% include head.html %}
 
- <div disable-select="on" class="splash">
+ <div class="splash">
  	<!--Set the background image for the splash page in the style.scss file -->
  <div class="splash-title">
   <h3><a href="toc">{{ site.title  | newline_to_br }}</a>
   	<br><small>{{ site.tagline }}</small>
   </h3>
+  <input id="splash-button" type="button" value="Enter" onclick="window.location.href='{{basesite.url}}/toc'";>
 </div>
-  {{ content }}
+  
 </div>

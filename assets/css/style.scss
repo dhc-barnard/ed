@@ -42,13 +42,13 @@ $accent-color: #3A8CE4;
 
 
 /* disable highlighting */
-*.disable-select{
+/**.disable-select{
   user-select:none;
   -moz-user-select:none;
   -webkit-user-select:none;
   -webkit-touch-callout:none;
   -ms-user-select:none
-}
+}*/
 
 /* NCLV CUSTOMIZATIONS */
 
@@ -79,13 +79,18 @@ $accent-color: #3A8CE4;
   text-align: center;
 }
 
+@media (max-width: 480px) {
+  .masthead-title {
+    line-height: 1.25em;
+  }
+}
+
 .masthead-title a {
   color: $heading-color;
 }
 
 .masthead-title small {
   color: $text-color;
-  display: none; /* This is an accessibility no-no */
   font-family: $masthead-font;
   font-weight: 300;
   font-size: .88rem;
@@ -133,6 +138,10 @@ div#toc h3.author {
   text-align: center;
 }
 
+#toc-texts > div:nth-child(19) {
+  
+}
+
 @media (min-width: 30em) {
   div#toc-texts {
     margin-bottom: 4rem;
@@ -150,11 +159,6 @@ div#toc h3.author {
     justify-content: space-evenly;
   }
 }
-
-#main > article.poem > p > img {
-  margin: 0 auto;
-}
-
 
 #toc-hr {
   border: none;
@@ -179,10 +183,8 @@ div#toc h3.author {
   text-align: center;
 }
 
-
-
 .splash { 
- background-image: url('/assets/img/Borrador_v3@2000px.jpg');
+ background-image: url('/assets/img/Borrador_v4@2000px.png');
  height: 100%; 
  background-position: center;
  background-repeat: no-repeat;
@@ -190,7 +192,7 @@ div#toc h3.author {
  position: relative;
 
  @media (min-width: 120em) {
-  background-image: url('/assets/img/Borrador_v3@3840px.jpg')
+  background-image: url('/assets/img/Borrador_v4@3840px.png')
  }
 
 }
@@ -218,6 +220,25 @@ div#toc h3.author {
   letter-spacing: .05rem;
   text-transform: uppercase;
  }
+
+ #splash-button {
+  font-family: $masthead-font;
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  background-color: #000;
+  color: #fff;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 0.5em 0.75em;
+ }
+
+/* Center images in Introduction only */
+#main > article.poem > p > img {
+  margin: 0 auto;
+}
 
 /* Styling bio and bio image */
 .bio {
