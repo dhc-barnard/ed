@@ -572,7 +572,7 @@ sup {
   top: -0.5em;
 }
 
-.footnotes {
+/*.footnotes {
   position: fixed;
   left: 0;
   top: 0;
@@ -616,13 +616,13 @@ sup {
 .close-button:hover {
   background-color: darkgray;
 }
-
+*/
 /* Keep because needed when generating PDFs */
-/*.footnotes {
+.footnotes {
   line-height: 1.2rem;
   font-size: 0.9rem;
   letter-spacing: .01rem;
-}*/
+}
 
 .footnotes .foot-block {
   display: inline-block;
